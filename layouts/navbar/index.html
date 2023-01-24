@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RT BLOG</title>
+
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+
+        .main-ctn{
+            width: 100vw;
+            height: 100vh;
+         
+        }
+        .main-content{
+            height: 100%;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+           
+        }
+        .navigation{
+            height: 10vh;
+            width: 100vw;
+            background-color: aqua;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+
+        }
+        .left{
+            font-family: monospace;
+            columns: white;
+            justify-content: center;
+            align-items: center;
+
+        }
+        .right{font-family: monospace;
+            columns: white;
+            justify-content: center;
+            align-items: center;
+
+        }
+        .link{
+            text-decoration: none;
+
+        }
+
+        .card{
+            height:400px;
+            width: 400px;
+            background-color: bisque;
+        }
+
+        .card-image-ctn{
+            height: 60%;
+            width: 100%;
+            background-color: blue;
+        }
+        .blog-content{
+            height: 40%;
+            width: 100%;
+            background-color: rgb(30, 255, 0);
+
+        }
+        .blog-image{
+            height: 100%;
+            width: 100%;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="main-ctn">
+
+        <nav class="navigation">
+            <div class="left">
+                   RT-Blog 
+            </div>
+            <div class="right">
+                    <a href="#"  class="link">Contact Us</a>
+                    <a href="#" class="link">Home</a>
+                    <a href="#" class="link">Post A blog</a>
+            </div>
+        </nav>
+
+       <div class="main-content">
+                <div class="card">
+
+                    <div class="card-image-ctn">
+                        <img src="blog.jpg" alt="the Blog Image"  class="blog-image">
+                    </div>
+
+                    <div class="blog-content">
+                        <div class="bottom-top"></div>
+                        <div class="bottom-bottom"></div>
+                    </div>
+
+                </div>
+
+       </div>
+      
+
+
+
+
+
+    </div>
+    
+</body>
+</html>

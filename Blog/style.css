@@ -1,0 +1,57 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main-ctn{
+    height: 100vh;
+    width: 100vw;
+   background-color: blue;
+}
+
+.nav-bar{
+    height: 10vh;
+    width: 100vw;
+   display: flex;
+   flex-direction: row;
+}
+
+.left{
+    height: 100%;
+    width: 100%;
+    background-color: brown;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.right{
+    height: 100%;
+    width: 100%;
+    background-color: blueviolet;
+   
+    display: flex;
+   
+    align-items: center;
+    justify-content: center;
+
+}
+
+.Nav-Content{
+    display: flex;
+    
+
+
+}
+
+
+
+.left{
+
+}
+.li{
+   
+ 
+    
+}
